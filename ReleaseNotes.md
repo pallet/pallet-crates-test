@@ -1,15 +1,16 @@
 # Release notes
 
-- Update pallet-crates-test to use logback
+## pallet-crates-test-0.6.0
 
+- Update pallet-crates-test to use logback
 
 ## pallet-crates-0.5.0
 
+No changes
 
 ## pallet-crates-0.4.4
 
-- Fix merge conflicts
-
+No changes
 
 ## pallet-crates-0.4.3
 

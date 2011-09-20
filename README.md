@@ -1,8 +1,8 @@
-# Pallet crate for pallet-crates-test
+# pallet-crates-test
 
-This a crate to install and run pallet-crates-test via [Pallet](http://pallet.github.com/pallet).
+Provide test resources for test pallet [Pallet](http://pallet.github.com/pallet) crates.
 
-[Release Notes](https://github.com/pallet/pallet-crates-test-crate//blob/master/ReleaseNotes.md)
+[Release Notes](https://github.com/pallet/pallet-crates-test/blob/master/ReleaseNotes.md)
 
 ## Support
 
