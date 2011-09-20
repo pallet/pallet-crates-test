@@ -3,12 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.cloudhoist</groupId>
-    <artifactId>pallet-crates</artifactId>
-    <version>0.5.0</version>
-    <relativePath>..</relativePath>
+    <artifactId>pallet-pom</artifactId>
+    <version>0.4.5</version>
   </parent>
   <artifactId>pallet-crates-test</artifactId>
-  <version>0.5.0</version>
+  <version>0.6.1-SNAPSHOT</version>
   <description>Provides test resources</description>
   <packaging>jar</packaging>
 
@@ -17,10 +16,24 @@
 
   <dependencies>
     <dependency>
-      <groupId>log4j</groupId>
-      <artifactId>log4j</artifactId>
-      <version>1.2.14</version>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.6.1</version>
       <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-core</artifactId>
+      <version>0.9.29</version>
+      <optional>true</optional>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>0.9.29</version>
+      <optional>true</optional>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 </project>
