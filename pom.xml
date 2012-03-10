@@ -4,10 +4,10 @@
   <parent>
     <groupId>org.cloudhoist</groupId>
     <artifactId>pallet-pom</artifactId>
-    <version>0.4.5</version>
+    <version>0.7.2</version>
   </parent>
   <artifactId>pallet-crates-test</artifactId>
-  <version>0.6.1-SNAPSHOT</version>
+  <version>0.7.1-SNAPSHOT</version>
   <description>Provides test resources</description>
   <packaging>jar</packaging>
 
@@ -16,24 +16,52 @@
 
   <dependencies>
     <dependency>
+      <groupId>org.cloudhoist</groupId>
+      <artifactId>pallet</artifactId>
+      <version>${pallet.version}</version>
+      <type>test-jar</type>
+    </dependency>
+    <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
-      <version>1.6.1</version>
-      <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-core</artifactId>
-      <version>0.9.29</version>
-      <optional>true</optional>
-      <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-classic</artifactId>
-      <version>0.9.29</version>
-      <optional>true</optional>
-      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.cloudhoist</groupId>
+      <artifactId>pallet-vmfest</artifactId>
+      <version>0.2.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.cloudhoist</groupId>
+      <artifactId>pallet-jclouds</artifactId>
+      <version>${palletjclouds.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jclouds</groupId>
+      <artifactId>jclouds-all</artifactId>
+      <version>${jclouds.version}</version>
     </dependency>
   </dependencies>
+
+  <!-- make sure we can find the parent pom -->
+  <repositories>
+    <repository>
+      <id>sonatype</id>
+      <url>http://oss.sonatype.org/content/repositories/releases</url>
+    </repository>
+  </repositories>
+
+  <properties>
+    <pallet.version>0.7.0-beta.1</pallet.version>
+    <palletvmfest.version>0.2.0-SNAPSHOT</palletvmfest.version>
+    <palletjclouds.version>1.2.0-alpha1</palletjclouds.version>
+    <jclouds.version>1.2.0</jclouds.version>
+  </properties>
 </project>
