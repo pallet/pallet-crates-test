@@ -59,7 +59,7 @@
   </repositories>
 
   <properties>
-    <pallet.version>0.7.0-SNAPSHOT</pallet.version>
+    <pallet.version>0.7.0-beta.1</pallet.version>
     <palletvmfest.version>0.2.0-SNAPSHOT</palletvmfest.version>
     <palletjclouds.version>1.2.0-alpha1</palletjclouds.version>
     <jclouds.version>1.2.0</jclouds.version>
