@@ -7,7 +7,7 @@
     <version>0.7.2</version>
   </parent>
   <artifactId>pallet-crates-test</artifactId>
-  <version>0.7.0</version>
+  <version>0.7.1-SNAPSHOT</version>
   <description>Provides test resources</description>
   <packaging>jar</packaging>
 
@@ -36,7 +36,7 @@
     <dependency>
       <groupId>org.cloudhoist</groupId>
       <artifactId>pallet-vmfest</artifactId>
-      <version>0.2.0-beta.2</version>
+      <version>0.2.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.cloudhoist</groupId>
