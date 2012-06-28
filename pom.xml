@@ -5,10 +5,10 @@
     <groupId>org.cloudhoist</groupId>
     <artifactId>pallet-pom</artifactId>
     <version>0.7.3</version>
-    <relativePath></relativePath>
+    <relativePath />
   </parent>
   <artifactId>pallet-crates-test</artifactId>
-  <version>0.7.1-SNAPSHOT</version>
+  <version>0.7.1</version>
   <description>Provides test resources</description>
   <packaging>jar</packaging>
 
