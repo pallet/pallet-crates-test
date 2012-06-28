@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.cloudhoist</groupId>
     <artifactId>pallet-pom</artifactId>
-    <version>0.7.2</version>
+    <version>0.7.3</version>
   </parent>
   <artifactId>pallet-crates-test</artifactId>
   <version>0.7.1-SNAPSHOT</version>
@@ -36,7 +36,7 @@
     <dependency>
       <groupId>org.cloudhoist</groupId>
       <artifactId>pallet-vmfest</artifactId>
-      <version>0.2.0-SNAPSHOT</version>
+      <version>${palletvmfest.version}</version>
     </dependency>
     <dependency>
       <groupId>org.cloudhoist</groupId>
@@ -50,18 +50,10 @@
     </dependency>
   </dependencies>
 
-  <!-- make sure we can find the parent pom -->
-  <repositories>
-    <repository>
-      <id>sonatype</id>
-      <url>http://oss.sonatype.org/content/repositories/releases</url>
-    </repository>
-  </repositories>
-
   <properties>
-    <pallet.version>0.7.0-SNAPSHOT</pallet.version>
-    <palletvmfest.version>0.2.0-SNAPSHOT</palletvmfest.version>
+    <pallet.version>0.7.1</pallet.version>
+    <palletvmfest.version>0.2.0-beta.3</palletvmfest.version>
     <palletjclouds.version>1.3.0-beta.1</palletjclouds.version>
-    <jclouds.version>1.2.0</jclouds.version>
+    <jclouds.version>1.3.2</jclouds.version>
   </properties>
 </project>
