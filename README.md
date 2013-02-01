@@ -2,7 +2,7 @@
 
 Provide test resources for test pallet [Pallet](http://pallet.github.com/pallet) crates.
 
-[Release Notes](https://github.com/pallet/pallet-crates-test/blob/master/ReleaseNotes.md)
+[Release Notes](ReleaseNotes.md)
 
 ## Support
 
